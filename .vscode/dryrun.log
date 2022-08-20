@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/anton/C++/tictactoe'
+clear
+mkdir -p ./build
+CC=/usr/bin/clang CXX=/usr/bin/clang++ cmake -B ./build -G "Unix Makefiles" . 
+make -C ./build
+make: Leaving directory '/home/anton/C++/tictactoe'
+ 
