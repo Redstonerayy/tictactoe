@@ -13,7 +13,6 @@ bool TicTacToe::Place(int fieldnumber){ // 0 - 8
 
     //check win
     this->winner = this->CheckWin();
-    std::cout << this->winner << std::endl;
     if(this->winner != 0) return false;
 
     //game ended by filled up field

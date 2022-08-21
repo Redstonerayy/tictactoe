@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 20 18:36:17 2022
+# Make data base, printed on Sun Aug 21 11:07:41 2022
 
 # Variables
 
@@ -77,7 +79,7 @@ MAKEFLAGS = pqrR
 # makefile
 CURDIR := /home/anton/C++/tictactoe
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -97,7 +99,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 10082
+VSCODE_PID = 18821
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -107,7 +109,7 @@ CSF_XSMessage = /usr/share/opencascade/resources/XSMessage
 # environment
 DRAWDEFAULT = /usr/share/opencascade/resources/DrawResources/DrawDefault
 # environment
-SESSION_MANAGER = local/anton-ms7c02:@/tmp/.ICE-unix/2230,unix/anton-ms7c02:/tmp/.ICE-unix/2230
+SESSION_MANAGER = local/anton-ms7c02:@/tmp/.ICE-unix/2239,unix/anton-ms7c02:/tmp/.ICE-unix/2239
 # automatic
 *F = $(notdir $*)
 # environment
@@ -151,7 +153,7 @@ MOTD_SHOWN = pam
 # environment
 LC_TIME = en_GB.UTF-8
 # environment
-INVOCATION_ID = eca96e67ddb64aa8a68c811ba3fed05c
+INVOCATION_ID = a94261a269d149b5937b4125537a22f5
 # environment
 USERNAME = anton
 # environment
@@ -185,7 +187,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/visual-studio-code.desktop
 # makefile
 .DEFAULT_GOAL := build
 # environment
-SYSTEMD_EXEC_PID = 2246
+SYSTEMD_EXEC_PID = 2255
 # environment
 CSF_TObjMessage = /usr/share/opencascade/resources/TObj
 # environment
@@ -197,11 +199,11 @@ USER = anton
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 1683
+MANAGERPID = 1690
 # environment
 LC_MEASUREMENT = en_GB.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 10063
+GIO_LAUNCHED_DESKTOP_FILE_PID = 18794
 # environment
 _ = /usr/bin/make
 # environment
@@ -213,7 +215,7 @@ CSF_DrawPluginDefaults = /usr/share/opencascade/resources/DrawResources
 # environment
 CSF_IGESDefaults = /usr/share/opencascade/resources/XSTEPResource
 # environment
-JOURNAL_STREAM = 8:20015
+JOURNAL_STREAM = 8:33920
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -261,7 +263,7 @@ LC_IDENTIFICATION = en_GB.UTF-8
 
 # Directories
 
-# . (device 39, inode 175272): 10 files, no impossibilities.
+# . (device 40, inode 175272): 10 files, no impossibilities.
 
 # 10 files, no impossibilities in 1 directories.
 
@@ -304,6 +306,7 @@ run: build
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+ 
 #  recipe to execute (from 'Makefile', line 14):
 	rm -rf ./run
 	mkdir ./run
@@ -319,9 +322,6 @@ build:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
- 
-make: *** No rule to make target 'all'.  Stop.
-
 #  recipe to execute (from 'Makefile', line 4):
 	clear
 	mkdir -p ./build
@@ -353,12 +353,12 @@ clean-build: clean build
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 19 / storage = 148 B / avg = 7 B
-# current buf: size = 8162 B / used = 148 B / count = 19 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 21 / storage = 170 B / avg = 8 B
+# current buf: size = 8162 B / used = 170 B / count = 21 / avg = 8 B
 
-# strcache performance: lookups = 36 / hit rate = 47%
+# strcache performance: lookups = 36 / hit rate = 41%
 # hash-table stats:
-# Load=19/8192=0%, Rehash=0, Collisions=0/36=0%
-# Finished Make data base on Sat Aug 20 18:36:17 2022
+# Load=21/8192=0%, Rehash=0, Collisions=0/36=0%
+# Finished Make data base on Sun Aug 21 11:07:41 2022
 
  
